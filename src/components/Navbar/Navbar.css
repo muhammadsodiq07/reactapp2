@@ -1,0 +1,44 @@
+.navbar {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.nav__item {
+  margin-right: 100px;
+  list-style: none;
+} 
+.nav__links {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(156, 156, 156);
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav2__item {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.nav2__icon {
+  position: relative;
+  top: 2px;
+  color: rgb(62, 62, 62);
+  font-size: 14px;
+}
+
+.nav2__link {
+  text-decoration: none;
+  color: #4A90E2;
+}
+.backdiv {
+  display: flex;
+  align-items: center;
+}
+
+.bx-arrow-back {
+  margin-right: 5px;
+}

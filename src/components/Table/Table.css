@@ -1,0 +1,71 @@
+.table{
+  padding-top: 30px;
+}
+
+.table__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.table__item {
+  margin-right: 80px;
+}
+
+.table__link {
+  text-decoration: none;
+  color: rgb(201, 201, 201);
+}
+
+.tableActive {
+  color: #000;
+  font-weight: 600;
+}
+
+
+.table__box {
+  width: 860px;
+}
+
+.table__box-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(228, 228, 228);
+  padding: 0 20px;
+  border-radius: 6px;
+}
+.table__box-inner2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(239, 239, 239);
+  padding: 0 20px;
+  border-radius: 6px;
+}
+.abs {
+  font-weight: 600;
+}
+.table__list2 {
+  width: 400px;
+  display: flex;
+  align-items: center; 
+  justify-content:space-between;
+}
+
+
+.table__val2 {
+  display: block;
+  padding-top: 10px;
+  color: rgb(201, 201, 201);
+}
+
+.table__text2 {
+  width: 850px;
+}
+
+.tabel__text3 {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+} 

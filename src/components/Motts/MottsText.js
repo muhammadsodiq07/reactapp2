@@ -6,7 +6,7 @@ class MottsText extends Component {
 
     this.state = {
       count: 0,
-      count1: 10,
+      count1: 32,
       count2: 730,
     }
   }
@@ -16,14 +16,17 @@ class MottsText extends Component {
   }
 
   isCountInput = () => {
-    this.setState({ count: this.state.count + 1 })
-    this.setState({ count1: this.state.count1 + 10 })
-    this.setState({ count2: this.state.count2 + 20 })
+    this.setState({ count: this.state.count + 1})
+    this.setState({ count1: this.state.count1 + 32 })
+    this.setState({ count2: this.state.count2 + 32 })
   }
   isMinusCount = () => {
-    this.setState({ count: this.state.count - 1 })
-    this.setState({ count1: this.state.count1 - 10 })
-    this.setState({ count2: this.state.count2 - 20 })
+    if(this.state.count > 0){
+      this.setState({ count: this.state.count - 1 })
+      this.setState({ count1: this.state.count1 - 32 })
+      this.setState({ count2: this.state.count2 - 32 })
+    }
+    
   }
   render() {
     return (
